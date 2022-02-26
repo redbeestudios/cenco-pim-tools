@@ -1,6 +1,6 @@
 cli:
-  name: My Teams CLI # change this to whathever you want
-  command: mt # set up the command used to execute this cli, we recommend that is something short
+  name: Cenco-PIM # change this to whathever you want
+  command: pim # set up the command used to execute this cli, we recommend that is something short
   custom_tools_dir: . # this can be relative or absolute
 
 # List of available environments (ie: development, qa, staging, etc)
