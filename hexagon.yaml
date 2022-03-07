@@ -35,7 +35,70 @@ tools:
     alias: cra
     long_name: Abrir documentacion de Centry REST API
     type: web
-    action: open_link  # here ask_last_name is custom tool in the directory format (see ask_last_name/)
     envs:
       "*": https://centrycl.github.io/centry-rest-api-docs/
+    action: open_link
 
+  - name: PIM BACK
+    alias: cem-pm
+    long_name: Abrir repo de PIM BACK
+    type: web
+    envs:
+      "*": https://gitlab.com/cencosud-ds/venta/pim/pim-back
+    action: open_link
+
+  - name: PIM FRONT INTEGRATED
+    alias: cem-pm
+    long_name: Abrir repo de PIM FRONT INTEGRATED
+    type: web  # here ask_last_name is custom tool in the directory format (see ask_last_name/)
+    envs:
+      "*": https://gitlab.com/cencosud-ds/venta/pim/pim-front-integrated
+    action: open_link
+
+  - name: PIM CONFIGURATION FRONT
+    alias: cem-pm
+    long_name: Abrir repo de PIM CONFIGURATION FRONT
+    type: web
+    envs:
+      "*": https://gitlab.com/cencosud-ds/venta/pim/microfrontends/pim-configuration-front
+    action: open_link
+
+  - name: PIM MEDIA
+    alias: cem-pm
+    long_name: Abrir repo de PIM MEDIA
+    type: web  # here ask_last_name is custom tool in the directory format (see ask_last_name/)
+    envs:
+      "*": https://gitlab.com/cencosud-ds/venta/pim/pim-media
+    action: open_link
+    
+  - name: EIFFEL EXPORTER
+    alias: cen-bl
+    long_name: Abrir repo de EIFFEL EXPORTER
+    type: web
+    envs:
+      "*": https://gitlab.com/cencosud-ds/eiffel/eiffel-exporter
+    action: open_link 
+
+  - name: EIFFEL PRODUCT IMPORTER
+    alias: cra
+    long_name: Abrir repo de EIFFEL PRODUCT IMPORTER
+    type: web
+    envs:
+      "*": https://gitlab.com/cencosud-ds/eiffel/eiffel-product-importer
+    action: open_link
+
+  - name: EIFFEL APPROVAL
+    alias: cem-pm
+    long_name: Abrir repo de EIFFEL APPROVAL
+    type: web
+    envs:
+      "*": https://gitlab.com/cencosud-ds/eiffel/eiffel-approval
+    action: open_link
+
+  - name: EIFFEL APPROVAL FRONT
+    alias: cem-pm
+    long_name: Abrir repo de EIFFEL APPROVAL FRONT
+    type: web  # here ask_last_name is custom tool in the directory format (see ask_last_name/)
+    envs:
+      "*": https://gitlab.com/cencosud-ds/eiffel/eiffel-approval-front 
+    action: open_link
